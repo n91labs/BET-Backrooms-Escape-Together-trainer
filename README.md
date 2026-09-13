@@ -1,4 +1,6 @@
-# BET Trainer V8.1 Stable
+# BET Trainer V8.2 Stable
+
+See [CHANGELOG.md](CHANGELOG.md) for release changes.
 
 External trainer and overlay for **Backrooms: Escape Together**.
 
@@ -13,6 +15,7 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Sanity Lock.
 - Infinite Downed Blood.
 - Disable Fall Damage, automatically suppressed for the required Level 6 story fall.
+- Player FOV override in **Survival**, adjustable from **30 to 150 degrees**, beyond the game's 70–100 range. Saved in profiles; disabling it restores the previous camera settings.
 
 ### Movement and flashlight
 
@@ -37,6 +40,7 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Live structure map generated from level geometry.
 - Player direction, entities, pickups, exits, and objectives.
 - Category filters, zoom, size, and opacity controls.
+- Corrected arrow rotation and map Y-axis: facing direction now agrees with forward/backward movement, with geometry and markers using the same coordinates.
 
 ### Level 6 LiDAR
 
@@ -70,13 +74,13 @@ No additional DLL download is required. The executable includes its matching run
 ## Compatibility
 
 - Target process: `BETGameSteam-Win64-Shipping.exe`
-- Release: V8.1 Stable
+- Release: V8.2 Stable
 - Verified game build: 24285267. Later game updates may require a trainer update.
 - Platform: Windows x64
 
 ## SHA-256
 
-`DCBD427F33BD2A6571A1353CE0A176981897DC5ACAFED1312FAFA348D64CFEE2`
+`7117BA6127B64A0D08C2AC45D9861E93E57D309388B58D9B55EAA4B3570218AC`
 
 ## Responsible use
 
