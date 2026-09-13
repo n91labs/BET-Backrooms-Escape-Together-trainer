@@ -1,4 +1,4 @@
-# BET Trainer V8.0 Stable
+# BET Trainer V8.1 Stable
 
 External trainer and overlay for **Backrooms: Escape Together**.
 
@@ -28,7 +28,8 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Configurable pickup display distance, labels, distances, and tracers.
 - Readable item names instead of internal Blueprint class names.
 - Collected pickups and completed objectives are removed automatically.
-- Skeleton ESP is visible as a disabled `WIP` control while runtime bone support is being completed.
+- Skeleton ESP with an independent toggle for supported entities, including Bacteria, Scratcher and entities on Level FUN and Level 232. Clump remains without skeleton rendering.
+- Purple ESP highlighting for Fuse, Electrical Tape and Wire Bundle on Level 3.
 - Level-specific support for generators, switches, valves, monitors, puzzle buttons, Level FUN locator arrows, and the red/yellow/green-light HUD.
 
 ### Structure map and radar
@@ -64,17 +65,18 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 3. Launch `BETTrainer.exe`.
 4. Press `F8` to open or close the trainer menu.
 
-No additional DLL installation is required for the released executable.
+No additional DLL download is required. The executable includes its matching runtime DLL and automatically extracts it to a private temporary directory when launched. Restart both the game and trainer after upgrading so the game loads the new runtime.
 
 ## Compatibility
 
 - Target process: `BETGameSteam-Win64-Shipping.exe`
-- Release: V8.0 Stable
+- Release: V8.1 Stable
+- Verified game build: 24285267. Later game updates may require a trainer update.
 - Platform: Windows x64
 
 ## SHA-256
 
-`E1FA4317EC3B54D33FF4243704BA5EA4D38B6A2BC179CF8EB369FE1948FB4DB6`
+`DCBD427F33BD2A6571A1353CE0A176981897DC5ACAFED1312FAFA348D64CFEE2`
 
 ## Responsible use
 
