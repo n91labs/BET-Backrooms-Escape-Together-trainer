@@ -1,4 +1,4 @@
-# BET Trainer V8.2 Stable
+# BET Trainer V8.3 Stable
 
 See [CHANGELOG.md](CHANGELOG.md) for release changes.
 
@@ -21,6 +21,7 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 
 - Adjustable movement-speed multiplier.
 - Adjustable jump-force multiplier.
+- Noclip / Fly with adjustable speed (100–5000 uu/s), responsive braking, WASD movement, Space up and Ctrl down. Close the menu for vertical controls. Leave walls and descend before disabling. Flight never auto-enables from profiles.
 - Sprint FOV protection at high movement speeds.
 - Adjustable flashlight intensity, range, and cone angle.
 - Force Visible mode compatible with the normal flashlight toggle.
@@ -74,13 +75,13 @@ No additional DLL download is required. The executable includes its matching run
 ## Compatibility
 
 - Target process: `BETGameSteam-Win64-Shipping.exe`
-- Release: V8.2 Stable
-- Verified game build: 24285267. Later game updates may require a trainer update.
+- Release: V8.3 Stable
+- Updated for the September 14 game executable; its SHA-256 is recorded in the changelog. Later game updates may require a trainer update.
 - Platform: Windows x64
 
 ## SHA-256
 
-`7117BA6127B64A0D08C2AC45D9861E93E57D309388B58D9B55EAA4B3570218AC`
+`D64C1C3327AD22814A7D9F7CD62D7D640E873A1BAE8F55BE465A85C36B295E31`
 
 ## Responsible use
 

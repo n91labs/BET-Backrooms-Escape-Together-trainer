@@ -1,5 +1,30 @@
 # Changelog
 
+## V8.3 Stable — 2026-09-14
+
+### Added
+
+- Noclip / Fly in Movement: WASD movement, Space to ascend, Ctrl to descend. Close the trainer menu to use vertical controls.
+- Adjustable flight speed from 100 to 5000 uu/s. Profiles save the speed but never automatically enable flight.
+- Flight safety reminder: leave walls and descend near the floor before disabling.
+- Current level name in the top status bar instead of the game executable name. Process details remain in System diagnostics.
+
+### Fixed
+
+- Reduced flight inertia with speed-scaled acceleration and braking. Original movement and collision settings are restored when flight is disabled or the trainer exits normally.
+- Updated GUObjectArray and FNamePool addresses for the September 14 game update.
+- Updated and validated the God Mode code-patch signature for that update.
+
+### Verification and compatibility
+
+- User confirmed God Mode, Noclip / Fly and the improved flight braking in-game.
+- Release build and embedded runtime packaging checks passed.
+- Flight UI/configuration checks passed; flight is not automatically enabled by a saved profile.
+- Game executable SHA-256: `3370ddb631ddea09eb8dbc32201ebb29d49081724b69f7f8614fb24cdd569661`.
+- Future game updates can require new addresses or code-patch validation. This is not a claim that every feature has been retested on every level.
+
+Distribution remains a single `BETTrainer.exe`. Restart the game and trainer after upgrading to load the matching embedded runtime.
+
 ## V8.2 Stable — 2026-09-13
 
 ### Added
