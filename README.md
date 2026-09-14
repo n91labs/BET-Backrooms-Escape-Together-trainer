@@ -25,6 +25,7 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Sprint FOV protection at high movement speeds.
 - Adjustable flashlight intensity, range, and cone angle.
 - Force Visible mode compatible with the normal flashlight toggle.
+- Added Fly / Noclip to the Movement tab.
 
 ### ESP and objectives
 
