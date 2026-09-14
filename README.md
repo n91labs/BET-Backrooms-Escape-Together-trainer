@@ -15,17 +15,28 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Sanity Lock.
 - Infinite Downed Blood.
 - Disable Fall Damage, automatically suppressed for the required Level 6 story fall.
-- Player FOV override in **Survival**, adjustable from **30 to 150 degrees**, beyond the game's 70–100 range. Saved in profiles; disabling it restores the previous camera settings.
+- Player FOV Override, adjustable from **30 to 150 degrees**, beyond the game's default 70-100 range.
+- FOV settings are saved in profiles; disabling the override restores the previous camera settings.
 
-### Movement and flashlight
+### Movement
 
 - Adjustable movement-speed multiplier.
 - Adjustable jump-force multiplier.
-- Noclip / Fly with adjustable speed (100–5000 uu/s), responsive braking, WASD movement, Space up and Ctrl down. Close the menu for vertical controls. Leave walls and descend before disabling. Flight never auto-enables from profiles.
+- Noclip / Fly with adjustable flight speed from **100 to 5000 uu/s**.
+- WASD flight movement, Space to ascend, and Ctrl to descend.
+- Responsive flight acceleration and braking.
+- Close the trainer menu to use vertical flight controls.
+- Disabling Fly restores the previous movement and collision settings.
+- Fly never auto-enables when loading a profile.
+- Before disabling Fly, leave walls and descend near the floor.
 - Sprint FOV protection at high movement speeds.
+
+### Flashlight / LiDAR
+
 - Adjustable flashlight intensity, range, and cone angle.
 - Force Visible mode compatible with the normal flashlight toggle.
-- Added Fly / Noclip to the Movement tab.
+- Unlimited LiDAR point lifetime for the current session.
+- Manual-only LiDAR cloud clearing.
 
 ### ESP and objectives
 
@@ -33,8 +44,9 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Configurable pickup display distance, labels, distances, and tracers.
 - Readable item names instead of internal Blueprint class names.
 - Collected pickups and completed objectives are removed automatically.
-- Skeleton ESP with an independent toggle for supported entities, including Bacteria, Scratcher and entities on Level FUN and Level 232. Clump remains without skeleton rendering.
-- Purple ESP highlighting for Fuse, Electrical Tape and Wire Bundle on Level 3.
+- Skeleton ESP with an independent toggle for supported entities, including Bacteria, Scratcher, and entities on Level FUN and Level 232.
+- Clump remains without skeleton rendering.
+- Purple ESP highlighting for Fuse, Electrical Tape, and Wire Bundle on Level 3.
 - Level-specific support for generators, switches, valves, monitors, puzzle buttons, Level FUN locator arrows, and the red/yellow/green-light HUD.
 
 ### Structure map and radar
@@ -42,12 +54,8 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Live structure map generated from level geometry.
 - Player direction, entities, pickups, exits, and objectives.
 - Category filters, zoom, size, and opacity controls.
-- Corrected arrow rotation and map Y-axis: facing direction now agrees with forward/backward movement, with geometry and markers using the same coordinates.
-
-### Level 6 LiDAR
-
-- Unlimited LiDAR point lifetime for the current session.
-- Manual-only LiDAR cloud clearing.
+- Corrected arrow rotation and map Y-axis.
+- Player facing direction now agrees with forward/backward movement, with geometry and markers using the same coordinates.
 
 ### Level 232 economy
 
@@ -71,13 +79,16 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 3. Launch `BETTrainer.exe`.
 4. Press `F8` to open or close the trainer menu.
 
-No additional DLL download is required. The executable includes its matching runtime DLL and automatically extracts it to a private temporary directory when launched. Restart both the game and trainer after upgrading so the game loads the new runtime.
+No additional DLL download is required. The executable includes its matching runtime DLL and automatically extracts it to a private temporary directory when launched.
+
+Restart both the game and trainer after upgrading so the game loads the new runtime.
 
 ## Compatibility
 
 - Target process: `BETGameSteam-Win64-Shipping.exe`
 - Release: V8.3 Stable
-- Updated for the September 14 game executable; its SHA-256 is recorded in the changelog. Later game updates may require a trainer update.
+- Updated for the September 14 game executable; its SHA-256 is recorded in the changelog.
+- Later game updates may require a trainer update.
 - Platform: Windows x64
 
 ## SHA-256
