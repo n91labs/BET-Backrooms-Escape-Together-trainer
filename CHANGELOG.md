@@ -1,5 +1,27 @@
 # Changelog
 
+## V8.4 Stable
+
+### Added
+
+- **Level -1 / Grayscale Halls support** in the existing ESP and radar.
+- Ritual targets with required ON/OFF and current light state; correctly configured rooms disappear.
+- Ritual progress HUD using runtime completion counts and the game's required-room ratio, plus tutorial progress.
+- Active progression TVs, inactive power breakers, Small Keys and locked Small Key doors.
+- Final exit marker gated by completed ritual and unlocked exit state.
+- Readable SHADOW label using the existing entity/skeleton pipeline; no guessed bone mapping.
+
+### Fixed
+
+- Finished tutorial sectors no longer suggest their remaining rooms as the next ritual targets.
+- Inactive TVs and the locked final exit are not shown as available objectives.
+- Removed redundant INTERACT prefixes from Level -1 markers.
+- State refresh uses cached actors, validates weak-object serials and clears markers on world changes.
+
+Ritual state changes and progress were confirmed in-game. Schema, reader-state and packaging checks passed; the dashboard regression suite passed 33 checks. A complete final-phase playthrough and Shadow skeleton rendering on this level remain unverified. SAFE SWITCH is not included because an active attack state was not reliably established.
+
+Download **BETTrainer.exe** from the release — its runtime DLL is embedded. Restart the trainer after updating; restart the game too if it still has an older runtime loaded. F8 opens the menu; F10 exits.
+
 ## V8.3 Stable — 2026-09-14
 
 ### Added

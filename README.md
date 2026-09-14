@@ -1,4 +1,4 @@
-# BET Trainer V8.3 Stable
+# BET Trainer V8.4 Stable
 
 See [CHANGELOG.md](CHANGELOG.md) for release changes.
 
@@ -49,6 +49,15 @@ The trainer attaches to `BETGameSteam-Win64-Shipping.exe`, automatically reconne
 - Purple ESP highlighting for Fuse, Electrical Tape, and Wire Bundle on Level 3.
 - Level-specific support for generators, switches, valves, monitors, puzzle buttons, Level FUN locator arrows, and the red/yellow/green-light HUD.
 
+### Level -1 / Grayscale Halls
+
+- Ritual ON/OFF targets, current states, completion progress and tutorial progress.
+- Correct rooms disappear; finished tutorial sectors no longer supply ritual targets.
+- Active progression TVs, inactive breakers, Small Keys and locked Small Key doors.
+- Final exit shown only after ritual completion and exit unlocking.
+- Existing ESP/radar categories and Shadow entity handling. Skeletons require a valid runtime rig; no guessed mapping.
+- Ritual state changes were checked in-game. Final-phase playthrough and Shadow skeleton rendering remain unverified; automatic SAFE SWITCH highlighting is not included.
+
 ### Structure map and radar
 
 - Live structure map generated from level geometry.
@@ -86,14 +95,14 @@ Restart both the game and trainer after upgrading so the game loads the new runt
 ## Compatibility
 
 - Target process: `BETGameSteam-Win64-Shipping.exe`
-- Release: V8.3 Stable
+- Release: V8.4 Stable
 - Updated for the September 14 game executable; its SHA-256 is recorded in the changelog.
 - Later game updates may require a trainer update.
 - Platform: Windows x64
 
 ## SHA-256
 
-`D64C1C3327AD22814A7D9F7CD62D7D640E873A1BAE8F55BE465A85C36B295E31`
+`72591B4C018B5E97FC0E7E0E915CDBBFEA1916B7D70CAEF372971DD02D43B019`
 
 ## Responsible use
 
